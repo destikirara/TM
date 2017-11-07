@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	font-family:"Times New Roman", Times, serif;
+	}
+body{
+    background-color:white;
+	}
+#wrapper{ 
+	width:850px;
+	margin:0 auto;
+	overflow:hidden;
+ 	}
+
+#header{
+	height:72px;
+	width:850px;
+	margin:1px;
+	overflow:hidden;
+	font-size:12px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-weight:bold;
+	color:black;
+	}
+
+#header2{
+	height:30px;
+	width:850px;
+	padding:10px;
+	margin:1px;
+	background-color: #03f; 
+	color: black;
+	display: block;
+	}
+#header img{width:110%; height:70px; }
+
+#menu-utama{
+	margin-top: 3px;
+	list-style: none;
+}
+#menu-utama li{
+	float: left;
+	padding: 8px 20px;
+	border-right: 0px solid #555555;
+}
+#menu-utama li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+#header form{
+	float:right;
+	margin-top:7px;
+	margin-right:10px;
+	}
+#header form input{
+	border:none;
+	height:20px;
+	}
+#content{
+    background:url(img/sc.png);
+	width: 212px;
+	height: 468px;
+	float: left;
+    padding: 7px;
+    margin: 
+}
+#content li a{
+	color:blue;
+	float: left;
+    font-size: 14px;
+    font-family: initial;
+	font-weight: bold;     
+}
+#content h3{ text-align: left; margin: 5px; padding:5px;}
+#content h1,h2{
+	font-size: 18px;
+	margin: 10px 0;
+        text-align: center;
+        display: block;
+	}
+.form_content label{ 
+    display:block; 
+    font-size:20px;
+    font-family:times new roman;
+    margin:5px;
+}
+
+.form_content input{ 
+    padding: 3px;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+}
+.form_content select,option{ 
+    display:block; 
+    font-size:20px;
+    font-family:times new roman;
+    margin:5px;
+}
+
+#daftar artikel{
+    width:50px; 
+    float:right;
+}
+.artikel{
+    background:#cccccc;
+	padding:10px;
+	margin-bottom:10px;
+	overflow:hidden;
+	}
+.artikel img{
+	float:left;
+	margin-right:10px;
+	width:165px;
+	height:200px;
+	}
+.artikel b{
+    color:#333333;
+	background:#dddddd;
+	padding:5px;
+	font-size:10px;
+	margin-right:5px;
+	}
+
+.artikel p{
+    margin:5px 0;
+    font-size: 14px;
+}
+
+.artikel a{
+	display: block;
+	text-align: right;
+	color: blue;
+    font-weight:bold;
+	}
+.artikel a input{
+	color:blue;
+	float:left;
+	padding:5px;
+	font-size:11px;
+	margin-right:5px;
+}
+
+#footer{
+	clear:both;
+	margin:20px 0;
+	text-align:center;
+    background-color:#999999;
+	padding:5px;
+	color:#555555;
+	}
+#footer img{
+    width:30px; 
+    height:25px; 
+    float: right;
+}
